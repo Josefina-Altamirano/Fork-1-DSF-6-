@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+.hero-section {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/imgheadertop.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  background-color: #ffffe9;
+  color: #290e0e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section > h1 {
+  font-weight: 900;
+  font-size: 45px;
+  padding: 0px 5px 0px 100px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero-section > p {
+  color: #001a2e;
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+  padding: 0px 0px 0px 120px;
+  margin: 70px;
+}
+
+.band {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  border-top: solid #ffae00;
+  border-bottom: solid#ffae00;
+  margin: 0px 0px 30px;
+  background-color: #870009;
+  color: #ffb88c;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+section {
+  max-width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+section > h2 {
+  font-size: 60px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin: 30px 0px;
+}
+
+article {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  gap: 30px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px black;
+}
+
+article > .info {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 65px 0px 25px;
+  max-width: 750px;
+  gap: 35px;
+}
+
+article > .producto {
+  background-color: #72f6ff;
+  border: solid 10px #ffae00;
+  width: 300px;
+  height: 250px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 90px;
+}
+
+article > .info > .valor {
+  font-weight: 900;
+  font-size: x-large;
+}
+
+.btn-comprar {
+  border: solid 6px #a3696d;
+  background-color: #ff9215;
+  border-radius: 30px;
+  position: relative;
+  padding: 15px 30px;
+  color: #0c3e01;
+  letter-spacing: 4px;
+  font-weight: 900;
+  font-size: 24px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.btn-comprar:hover {
+  background: #72f6ff;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  border-top: solid #ffae00;
+  border-bottom: solid#ffae00;
+  margin: 30px 0px 30px;
+  background-color: #870009;
+  color: #ffb88c;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+}
